@@ -1,0 +1,106 @@
+name: code_quest_pre
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.3.4 <4.0.0'
+
+dependencies:
+  flame_svg: ^1.10.1
+  flame_splash_screen: ^0.3.0
+  flutter:
+    sdk: flutter
+  flame: ^1.17.0
+  faker: 2.1.0
+  animated_text_kit: ^4.2.1
+  gif: 2.3.0
+  chewie: ^1.0.0
+  video_player: ^2.2.17
+  audioplayers: ^6.0.0
+  spritewidget: ^2.0.1
+  shared_preferences: ^2.3.2
+  flame_audio: ^2.10.3
+  sqflite: ^2.4.0
+  flutter_launcher_icons: ^0.14.1
+  firebase_core: ^3.8.0
+  cloud_firestore: ^5.5.0
+  random_string: ^2.3.1
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/GameSceneBG/
+    - assets/images/Buttons/
+
+    - assets/images/module1/chapter1/round1/ 
+    - assets/images/module1/chapter1/round2/
+    - assets/images/module1/chapter1/round3/
+    - assets/images/module1/chapter2/round1/
+    - assets/images/module1/chapter2/round2/
+    - assets/images/module1/chapter2/round3/
+    - assets/images/module1/chapter3/round1/
+    - assets/images/module1/chapter3/round2/
+    - assets/images/module1/chapter3/round3/
+
+    - assets/images/module2/chapter1/round1/
+    - assets/images/module2/chapter1/round2/
+    - assets/images/module2/chapter1/round3/
+    - assets/images/module2/chapter2/round1/
+    - assets/images/module2/chapter2/round2/
+    - assets/images/module2/chapter2/round3/
+    - assets/images/module2/chapter3/round1/
+    - assets/images/module2/chapter3/round2/
+    - assets/images/module2/chapter3/round3/
+
+    - assets/images/module3/chapter1/round1/
+    - assets/images/module3/chapter1/round2/
+    - assets/images/module3/chapter1/round3/
+    - assets/images/module3/chapter2/round1/
+    - assets/images/module3/chapter2/round2/
+    - assets/images/module3/chapter2/round3/
+    - assets/images/module3/chapter3/round1/
+    - assets/images/module3/chapter3/round2/
+    - assets/images/module3/chapter3/round3/
+
+    - assets/images/module4/chapter1/round1/
+    - assets/images/module4/chapter1/round2/
+    - assets/images/module4/chapter1/round3/
+    - assets/images/module4/chapter2/round1/
+    - assets/images/module4/chapter2/round2/
+    - assets/images/module4/chapter2/round3/
+    - assets/images/module4/chapter3/round1/
+    - assets/images/module4/chapter3/round2/
+    - assets/images/module4/chapter3/round3/
+
+    - assets/images/module5/chapter1/round1/
+    - assets/images/module5/chapter1/round2/
+    - assets/images/module5/chapter1/round3/
+    - assets/images/module5/chapter2/round1/
+    - assets/images/module5/chapter2/round2/
+    - assets/images/module5/chapter2/round3/
+    - assets/images/module5/chapter3/round1/
+    - assets/images/module5/chapter3/round2/
+    - assets/images/module5/chapter3/round3/
+
+    - assets/images/ModulesBG/
+    - assets/images/
+    - assets/images/
+    - assets/images/
+    - assets/images/
+    - assets/audio/
+    - assets/sprites/
+    - assets/video/
+
+  fonts:
+    - family: PressStart2P
+      fonts:
+        - asset: assets/fonts/PressStart2P.ttf
+    - family: Rodchenko
+      fonts:
+        - asset: assets/fonts/Rodchenko-Bold.ttf
+    - family: JetBrainsMono
+      fonts:
+        - asset: assets/fonts/JetBrainsMono-SemiBold.ttf
+    - family: Play
+      fonts:
+        - asset: assets/fonts/Play-Regular.ttf
